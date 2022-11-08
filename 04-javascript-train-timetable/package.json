@@ -1,12 +1,12 @@
 {
-  "name": "03-javacript-chat",
+  "name": "04-javascript-train-timetable",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "source": "index.html",
+  "main": "add.js",
+  "source": "add.html",
   "scripts": {
     "dev": "parcel",
-    "server": "json-server ./server/data.json -p 5000",
+    "server": "json-server ./server/trains.json -p 5000",
     "start": "npm-run-all --parallel dev server"
   },
   "author": "",
